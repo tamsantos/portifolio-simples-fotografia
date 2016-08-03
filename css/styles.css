@@ -1,0 +1,105 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #B98B77;
+  text-align: center;
+  margin: 2em;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.main-header {
+  height: 510px;
+  background-image: url("../imagens/header-camera.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+nav {
+  padding-top: 1.5em;
+  font-size: 0.85em;
+  letter-spacing: 2px;
+}
+
+nav a {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Falta colocar os efeitos nos links - hover,...*/
+
+
+.logo {
+  float: left;
+}
+
+ul {
+  padding: 0;
+  text-align: right;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding-left: 15px;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.perfil {
+  width: 280px;
+	height: 280px;
+	background-image: url(../imagens/perfil.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+  margin: 1em auto;
+  border: 8px solid #B98B77;
+}
+
+.p-txt {
+  margin: 2em auto 3em;
+  text-align: center;
+  line-height: 35px;
+  color: #2B3A45;
+}
+
+.portifolio {
+  width: 100%;
+}
+
+.portifolio img {
+  width: 33.33%;
+  height: 33.33%;
+  float: left;
+
+}
+
+.clear {
+  clear: both;
+}
